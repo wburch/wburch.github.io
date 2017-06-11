@@ -1,0 +1,104 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+/* line 6, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #8FBC8F;
+  /*	Change link color to white */ }
+  /* line 12, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+  .navbar a {
+    color: white;
+    /* Change link hover color */ }
+    /* line 16, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+    .navbar a:hover {
+      color: #304f30; }
+
+/* Change logo size */
+/* line 23, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+a.navbar-brand img {
+  max-height: 100px;
+  max-width: 100px; }
+
+/* line 28, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+.jumbotron {
+  background-color: #8FBC8F;
+  color: white;
+  padding-bottom: 10%;
+  /* Changing paragraph text size and color */ }
+  /* line 33, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+  .jumbotron p {
+    padding-top: 1%;
+    font-size: .7em; }
+
+/* line 39, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+.section {
+  /* Change h3 color and padding */
+  /* Change thumbnail pad, border, color */ }
+  /* line 41, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+  .section h3 {
+    color: #304f30;
+    padding-bottom: 2%;
+    font-size: 2em; }
+  /* line 47, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+  .section .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    background-color: #dfecdf;
+    /* Adding callout triangle */
+    /* Adding callout triangle */
+    /* change img size */
+    /* Change text padding */ }
+    /* line 52, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+    .section .thumbnail:before {
+      border-bottom: 20px solid transparent;
+      border-right: 20px solid #dfecdf;
+      bottom: 0px;
+      content: '';
+      position: absolute;
+      right: 50%; }
+    /* line 61, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+    .section .thumbnail:after {
+      border-bottom: 20px solid transparent;
+      border-left: 20px solid #dfecdf;
+      bottom: 0px;
+      content: '';
+      position: absolute;
+      left: 50%; }
+    /* line 70, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+    .section .thumbnail img {
+      width: 100%;
+      height: 100%;
+      border-bottom: 10px solid white; }
+    /* line 76, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+    .section .thumbnail p {
+      padding-left: 2%;
+      padding-right: 2%;
+      margin-top: 5%;
+      color: #304f30; }
+
+/* Add a gray background color and some padding to the footer */
+/* line 86, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px; }
+  /* line 89, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+  footer .credit {
+    font-size: .6em; }
+
+/* media query to move logo to center on smaller screens */
+@media (max-width: 768px) {
+  /* line 96, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+  .navbar {
+    position: relative; }
+  /* line 99, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+  a.navbar-brand img {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    max-height: 150px;
+    max-width: 150px; }
+  /* line 106, /Users/wesleyburch/Documents/web projects/blog/portfolio/sass/style.scss */
+  .jumbotron {
+    padding-top: 15%; } }
+
+/*# sourceMappingURL=style.css.map */
